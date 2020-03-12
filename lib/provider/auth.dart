@@ -62,7 +62,7 @@ class Auth with ChangeNotifier {
 
   Future<void> login(String email, String password) async {
     const url =
-        'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBrq7gBc_p06GljBH9IQLCAiud2w6oYl0Y';
+        'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=key';
     try {
       final response = await http.post(
         url,
